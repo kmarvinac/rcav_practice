@@ -1,0 +1,7 @@
+<h1> The loan term is <%= @periods %> months </h1>
+
+<h1> The loan principal is $<%= @principal %>  </h1>
+
+<h1> The loan rate is <%= ((@rate)*100).round(2) %>% </h1>
+
+<h1> The loan payment is $<%= @payment.round(2) %> </h1>
